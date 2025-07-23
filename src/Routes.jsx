@@ -5,7 +5,6 @@ import ErrorBoundary from "components/ErrorBoundary";
 import HomepagePremiumDeveloperLearningPlatform from "pages/homepage-premium-developer-learning-platform";
 import TechnologyDeepDivePages from "pages/technology-deep-dive-pages";
 import NotFound from "pages/NotFound";
-import KeshavDocsLandingPage from "pages/KeshavDocsLandingPage";
 import Dashboard from "pages/Dashboard/Dashboard";
 import MERNRoadmap from "pages/MERN/MERNRoadmap";
 import Header from "components/ui/Header";

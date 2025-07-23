@@ -1,8 +1,6 @@
 import React from 'react';
-
 import Header from '../../components/ui/Header';
 import HeroSection from './components/HeroSection';
-import LearningUniverseSection from './components/LearningUniverseSection';
 import SuccessStoriesSection from './components/SuccessStoriesSection';
 import SkillAssessmentWidget from './components/SkillAssessmentWidget';
 import CommunityActivityFeed from './components/CommunityActivityFeed';
