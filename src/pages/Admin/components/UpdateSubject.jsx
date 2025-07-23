@@ -15,7 +15,7 @@ export default function UpdateSubject() {
     index_number: "", // ✅ Added
   });
 
-  const API = "http://localhost:7867/api/subject";
+  const API = "https://keshavdocsserverr-4.onrender.com/api/subject";
 
   const fetchSubjects = async () => {
     try {

@@ -12,7 +12,7 @@ const Header = () => {
 
   const navigationItems = [
     { name: 'Home', path: '/homepage-premium-developer-learning-platform' },
-    { name: 'Technology Deep Dive', path: '/technology-deep-dive-pages' },
+    { name: 'MERN roadmap', path: '/mern' },
   ];
 
   useEffect(() => {
@@ -94,7 +94,7 @@ const Header = () => {
             </Link>
             <Link
               to="/dashboard"
-              className="micro-interaction"
+              className="micro-interaction text-black dark:text-zinc-200"
               size="sm"
             >
               Start Learning

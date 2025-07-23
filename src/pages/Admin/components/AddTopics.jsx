@@ -14,7 +14,7 @@ export default function AddTopics() {
 
   const fetchSubjects = async () => {
     try {
-      const res = await axios.get("http://localhost:7867/api/subjects");
+      const res = await axios.get("https://keshavdocsserverr-4.onrender.com/api/subjects");
       setSubjects(res.data);
     } catch (error) {
       console.error("Error fetching subjects:", error);
@@ -44,7 +44,7 @@ export default function AddTopics() {
 
     try {
       const res = await axios.post(
-        `http://localhost:7867/api/subject/${selectedSubjectId}/topic`,
+        `https://keshavdocsserverr-4.onrender.com/api/subject/${selectedSubjectId}/topic`,
         {
           name,
           index_number: Number(index_number),

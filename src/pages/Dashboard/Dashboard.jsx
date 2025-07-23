@@ -17,7 +17,7 @@ function Dashboard() {
    useEffect(() => {
     const fetchSubjects = async () => {
         try {
-            const res = await axios.get("http://localhost:7867/api/subjects");
+            const res = await axios.get("https://keshavdocsserverr-4.onrender.com/api/subjects");
 
             // Sort each subject's topics based on index_number
             const sortedSubjects = res.data.map((subject) => {

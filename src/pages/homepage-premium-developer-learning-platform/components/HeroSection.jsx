@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from '../../../components/ui/Button';
 import Icon from '../../../components/AppIcon';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   const [currentCodeSnippet, setCurrentCodeSnippet] = useState(0);
@@ -106,16 +107,17 @@ app.get('/learn', (req, res) => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12"
             >
-              <Button
+              <Link
                 variant="primary"
                 size="lg"
+                to='/dashboard'
                 iconName="Rocket"
                 iconPosition="right"
                 className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-4 text-lg font-semibold shadow-2xl hover:shadow-cyan-500/25 transition-all duration-300"
                 onClick={() => console.log('Start Learning Journey')}
               >
                 Start Learning Journey
-              </Button>
+              </Link>
               <Button
                 variant="outline"
                 size="lg"

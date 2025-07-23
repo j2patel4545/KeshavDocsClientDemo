@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { FaTrashAlt, FaChevronDown, FaChevronUp } from "react-icons/fa";
 
-const API_BASE = "http://localhost:7867/api/subject";
+const API_BASE = "https://keshavdocsserverr-4.onrender.com/api/subject";
 
 export default function DeleteSubject() {
   const [subjects, setSubjects] = useState([]);

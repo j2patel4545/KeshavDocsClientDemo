@@ -6,11 +6,11 @@ export default function CreateSubject() {
   const [subjectName, setSubjectName] = useState("");
   const [allSubjects, setAllSubjects] = useState([]);
 
-  const API_URL = "http://localhost:7867/api/subject";
+  const API_URL = "https://keshavdocsserverr-4.onrender.com/api/subject";
 
   const fetchSubjects = async () => {
     try {
-      const res = await axios.get("http://localhost:7867/api/subjects");
+      const res = await axios.get("https://keshavdocsserverr-4.onrender.com/api/subjects");
       console.log(res.data);
       setAllSubjects(res.data);
     } catch (error) {
